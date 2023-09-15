@@ -1,62 +1,71 @@
 [
     {
-        "id": 201,
+        "id": 1,
+        "image":"https://i.ibb.co/8XCyPcW/python.png",
         "course_name": "Python Programming Fundamentals",
         "credit_time": 3,
         "price": 15000,
         "details": "Learn the basics of Python programming, including syntax, data types, and control structures."
     },
     {
-        "id": 202,
+        "id": 2,
+        "image":"https://i.ibb.co/KV7QC2n/C-programming.png",
         "course_name": "Java Web Development",
         "credit_time": 4,
         "price": 10000,
         "details": "Master Java for web development, including servlets, JSP, and database integration."
     },
     {
-        "id": 203,
+        "id": 3,
+        "image":"https://i.ibb.co/KV7QC2n/C-programming.png",
         "course_name": "JavaScript for Front-End Development",
         "credit_time": 2,
         "price": 20000,
         "details": "Explore JavaScript for building interactive and responsive web applications."
     },
     {
-        "id": 204,
+        "id": 4,
+        "image":"https://i.ibb.co/4Pxxt3b/Rectangle-2.png",
         "course_name": "C++ Programming and Algorithms",
         "credit_time": 3,
         "price": 12000,
         "details": "Learn C++ programming and algorithmic problem-solving techniques."
     },
     {
-        "id": 205,
+        "id": 5,
+        "image":"https://i.ibb.co/kXjnk7g/web.jpg",
         "course_name": "Full-Stack Web Development with MERN",
         "credit_time": 4,
         "price": 15000,
         "details": "Become a full-stack developer using the MERN (MongoDB, Express, React, Node.js) stack."
     },
     {
-        "id": 206,
+        "id": 6,
+        "image":"https://i.ibb.co/wQB72Xd/Mobile-app.jpg",
         "course_name": "Mobile App Development with Swift",
         "credit_time": 3,
         "price": 10000,
         "details": "Create iOS apps using Swift, Apple's powerful programming language."
     },
     {
-        "id": 207,
+        "id": 7,
+        "image":"https://i.ibb.co/3rnbPN2/business-data-analysis.jpg",
         "course_name": "Data Structures and Algorithms in Python",
         "credit_time": 2,
         "price": 22000,
         "details": "Master data structures and algorithms in Python for efficient coding and problem-solving."
     },
     {
-        "id": 208,
+        "id": 8,
+        "image":"https://i.ibb.co/KV7QC2n/C-programming.png",
         "course_name": "Ruby on Rails Web Development",
         "credit_time": 2,
         "price": 11000,
         "details": "Build web applications quickly with Ruby on Rails framework."
     },
     {
-        "id": 209,
+        "id": 9,
+        "image":"https://i.ibb.co/KV7QC2n/C-programming.png",
         "course_name": "Game Development with Unity",
         "credit_time": 4,
         "price": 10000,
