@@ -1,74 +1,74 @@
 [
     {
         "id": 1,
-        "image":"https://i.ibb.co/8XCyPcW/python.png",
-        "course_name": "Python Programming Fundamentals",
+        "image":"https://i.ibb.co/JQVmc5D/C-Programming.png",
+        "course_name": "Introduction to C Programming",
         "credit_time": 3,
+        "price": 15000,
+        "details": "Fundamentals of the C programming language and programming techniques."
+    },
+    {
+        "id": 2,
+        "image":"https://i.ibb.co/fkcKssC/algorithm.png",
+        "course_name": "Introduction to Algorithms",
+        "credit_time": 4,
+        "price": 10000,
+        "details": "Comprehensive study of algorithms and fundamental data structures."
+    },
+    {
+        "id": 3,
+        "image":"https://i.ibb.co/9Tj9sCj/CPP-Language.png",
+        "course_name": "Introduction to C++",
+        "credit_time": 2,
+        "price": 20000,
+        "details": "Introduction to C++ programming, object-oriented concepts, and applications."
+    },
+    {
+        "id": 4,
+        "image":"https://i.ibb.co/VmKtQJx/data-structure.jpg",
+        "course_name": "Basic Data Structures",
+        "credit_time": 3,
+        "price": 12000,
+        "details": "Fundamental data structures and their applications."
+    },
+    {
+        "id": 5,
+        "image":"https://i.ibb.co/8XCyPcW/python.png",
+        "course_name": "Introduction to OOP Python",
+        "credit_time": 4,
         "price": 15000,
         "details": "Learn the basics of Python programming, including syntax, data types, and control structures."
     },
     {
-        "id": 2,
-        "image":"https://i.ibb.co/KV7QC2n/C-programming.png",
-        "course_name": "Java Web Development",
-        "credit_time": 4,
-        "price": 10000,
-        "details": "Master Java for web development, including servlets, JSP, and database integration."
-    },
-    {
-        "id": 3,
-        "image":"https://i.ibb.co/KV7QC2n/C-programming.png",
-        "course_name": "JavaScript for Front-End Development",
-        "credit_time": 2,
-        "price": 20000,
-        "details": "Explore JavaScript for building interactive and responsive web applications."
-    },
-    {
-        "id": 4,
-        "image":"https://i.ibb.co/4Pxxt3b/Rectangle-2.png",
-        "course_name": "C++ Programming and Algorithms",
-        "credit_time": 3,
-        "price": 12000,
-        "details": "Learn C++ programming and algorithmic problem-solving techniques."
-    },
-    {
-        "id": 5,
-        "image":"https://i.ibb.co/kXjnk7g/web.jpg",
-        "course_name": "Full-Stack Web Development with MERN",
-        "credit_time": 4,
-        "price": 15000,
-        "details": "Become a full-stack developer using the MERN (MongoDB, Express, React, Node.js) stack."
-    },
-    {
         "id": 6,
-        "image":"https://i.ibb.co/wQB72Xd/Mobile-app.jpg",
-        "course_name": "Mobile App Development with Swift",
+        "image":"https://i.ibb.co/Q6b8VBV/software.png",
+        "course_name": "Software Engineering",
         "credit_time": 3,
         "price": 10000,
-        "details": "Create iOS apps using Swift, Apple's powerful programming language."
+        "details": "Introduction to software engineering principles and practices"
     },
     {
         "id": 7,
-        "image":"https://i.ibb.co/3rnbPN2/business-data-analysis.jpg",
-        "course_name": "Data Structures and Algorithms in Python",
+        "image":"https://i.ibb.co/pJL24Pb/cloud.png",
+        "course_name": "AWS, Cloud Computing",
         "credit_time": 2,
         "price": 22000,
-        "details": "Master data structures and algorithms in Python for efficient coding and problem-solving."
+        "details": "Exploration of cloud computing technologies and services."
     },
     {
         "id": 8,
-        "image":"https://i.ibb.co/KV7QC2n/C-programming.png",
-        "course_name": "Ruby on Rails Web Development",
+        "image":"https://i.ibb.co/wzV4CZ9/data-base.png",
+        "course_name": "Database (MySQL)",
         "credit_time": 2,
         "price": 11000,
-        "details": "Build web applications quickly with Ruby on Rails framework."
+        "details": "Database management and design principles."
     },
     {
         "id": 9,
-        "image":"https://i.ibb.co/KV7QC2n/C-programming.png",
-        "course_name": "Game Development with Unity",
+        "image":"https://i.ibb.co/xDGcxgx/problem-solving.png",
+        "course_name": "Problem-Solving Part",
         "credit_time": 4,
         "price": 10000,
-        "details": "Create 2D and 3D games using Unity game engine and C# programming."
+        "details": "Advanced problem-solving techniques for complex programming challenges.."
     }
 ]
