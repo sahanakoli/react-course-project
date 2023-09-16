@@ -1,11 +1,11 @@
 /* eslint-disable no-undef */
-
 /* eslint-disable react/jsx-key */
 import { useEffect } from "react";
 import Cart from "../Cart/Cart";
 import { useState } from "react";
-import {  FaDollarSign } from 'react-icons/fa';
+import {  FiDollarSign } from 'react-icons/fi';
 import { LuBookOpen  } from 'react-icons/lu';
+import Swal from 'sweetalert2/src/sweetalert2.js'
 
 
 
@@ -30,7 +30,9 @@ const Course = () => {
       let price = course.price;
       
       if(isCourse){
-        return alert("Already Select");
+        return Swal.fire(
+            'Already Select'
+          )
       }
       else{
 
@@ -42,7 +44,10 @@ const Course = () => {
         const hourRemaining = 20 - hours;
 
         if(hours > 20){
-          return alert('Sorry')
+          return Swal.fire(
+            'Sorry, you can not add credit hour',
+            'Your credit hour gater than 20 and your credit remaining hour less than 0'
+          )
         }
         else{
             setTotalPrice(price);
@@ -56,27 +61,27 @@ const Course = () => {
    
     return (
         <div>
-            <h1 className="text-4xl text-center font-bold mt-12">Course Registration</h1>
-        <div className=" flex justify-around mt-8 ">
+            <h1 className="text-3xl text-center font-bold mt-6">Course Registration</h1>
+        <div className=" flex justify-around mt-10 ">
             <div className="grid grid-cols-3 gap-4 ">
             {
                 allCourse.map((course) =>  (
-                    <div className="card w-full bg-base-100 shadow-xl">
-                <figure className="rounded-lg ,"><img src={course.image} alt="" /></figure>
-                <div className="card-body">
-                   <h2 className="card-title text-lg font-medium ">{course.course_name}</h2>
-                   <p className="text-sm font-normal">{course.details}</p>
-                   <div className="flex justify-between">
-                    <div className="flex">
-                        <p className="mt-1"><FaDollarSign></FaDollarSign></p>
-                        <p className="ml-3 text-base font-normal">Price: {course.price}</p>
+                    <div className="card w-full bg-base-100 shadow-xl p-6">
+                <figure className="rounded-lg "><img src={course.image} alt="" /></figure>
+                <div className="mt-4">
+                   <h2 className="card-title text-lg font-semibold text-left">{course.course_name}</h2>
+                   <p className="text-base font-normal text-left mt-3">{course.details}</p>
+                   <div className="flex mt-5">
+                    <div className="flex mr-16">
+                        <p className="mt-1"><FiDollarSign></FiDollarSign></p>
+                        <p className="ml-4 text-base font-medium">Price: {course.price}</p>
                     </div>
                     <div className="flex">
                       <p className="mt-1"><LuBookOpen></LuBookOpen></p>
-                      <p className="ml-3 text-base font-normal">Credit: {course.credit_time}hrs</p>
+                      <p className="ml-4 text-base font-medium">Credit: {course.credit_time}hr</p>
                     </div>
                    </div>
-                   <div className="card-actions justify-center ">
+                   <div className="card-actions justify-center mt-4 ">
                        <button onClick={() => handleSelectCourse(course)} className="btn btn-primary w-full mb-0">Select</button>
                    </div>
                 </div>
@@ -91,9 +96,8 @@ const Course = () => {
                 totalHours={totalHours}
                 totalPrice={totalPrice}
                 ></Cart>
-            </div>
-            
-        </div>
+            </div> 
+           </div>
         </div>
     );
 };

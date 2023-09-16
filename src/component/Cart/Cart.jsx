@@ -4,19 +4,21 @@
 const Cart = ({selectCourse, hoursRemaining, totalHours, totalPrice}) => {
     
     return (
-        <div className="card w-72 bg-base-100 shadow-xl p-2 ml-8">
-            <h3 className="text-lg text-blue-600">Credit Hours Remaining {hoursRemaining} hr</h3>
+        <div className="card w-72 bg-base-100 shadow-xl p-4 ml-8">
+            <h3 className="text-lg text-blue-600 text-left font-bold">Credit Hour Remaining {hoursRemaining} hr</h3>
             <hr className="mt-4"></hr>
-            <h1 className="text-xl font-medium mt-4 ">Course Name</h1>
+            <h1 className="text-xl font-bold mt-4 text-left">Course Name</h1>
+            <ol className="list-decimal ml-6">
             {
                 selectCourse.map((course) => (
-                    <li>{course.course_name}</li>
+                    <li className="text-left mt-2">{course.course_name}</li>
                 ))
             }
+            </ol>
             <hr className="mt-4"></hr>
-            <h3 className="mt-4 text-base font-medium">Total Credit Hours: {totalHours}</h3>
+            <h3 className="mt-4 text-base font-medium text-left">Total Credit Hour: {totalHours}</h3>
             <hr className="mt-4"></hr>
-            <h3 className="mt-3 font-medium text-base">Total Price: {totalPrice} USD</h3>
+            <h3 className="mt-4 font-medium text-base text-left">Total Price: {totalPrice} USD</h3>
         </div>
     );
 };
